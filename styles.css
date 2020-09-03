@@ -1,0 +1,53 @@
+#headerArea {
+    width: 900px;
+    height: 175px;
+    float: left;
+    background: url(awesome.jpg) top center no-repeat;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+#sideArea {
+    width: 600px;
+    float: left;
+    min-height: 50px;
+    padding: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: dimgray;
+}
+
+#sideArea a {
+    text-decoration: none;
+    color: chocolate;
+}
+
+#sideArea a:hover {
+    text-decoration: none;
+    color: crimson;
+}
+
+#textArea {
+    width: 500px;
+}
+
+#footerArea {
+    width: 900px;
+    height: 40px;
+    background-color: #ccc;
+    padding: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
